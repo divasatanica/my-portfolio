@@ -1,0 +1,213 @@
+a:hover{
+	text-decoration:none;
+}
+.navbar .navbar-header a{
+color:black;
+}
+.navbar .navbar-header{
+	margin-left:20px;
+}
+
+.navbar{
+	background:rgb(200,200,200);
+	border-radius:4px;
+	margin-bottom:0;
+	box-shadow:1px 1px rgb(0,0,0);
+}
+
+ul.navbar-right{
+	margin-right:15px;
+}
+ul.navbar-right li a{
+	color:black !important;
+	font-size:18px;
+	font-family:verdana,Microsoft Yahei;
+	background:rgb(175,175,175);	
+}
+ul.navbar-right li a:hover{
+	color:black !important;
+	font-size:18px;
+	font-family:Lato,verdana,Microsoft Yahei;
+	background:rgb(225,225,225) !important;
+}
+.navbar .topnav{
+	background:rgb(175, 175, 175);
+}
+
+.intro-header{
+	text-align:center;
+	padding-top:65px;
+	background-image:url('C://Users/Hitachi/Desktop/html/portfolioPage/img/quest_bgimg.jpg') ;
+	background-attachment:fixed;
+	height:624px;
+	
+}
+
+.intro-message{
+	padding-top:50px;
+}
+.intro-message h1{
+	text-shadow:2px 1px 2px rgb(28,28,28);
+	color:rgba(255, 255, 255, 0.7);
+	font-size:48px;
+}
+
+.intro-message h3{
+	text-shadow:1px 1px 1px rgba(28, 28, 28,0.6);
+}
+
+hr.intro-divider{
+	border:1px outset rgba(255, 255, 255, 0.2);
+	box-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);
+	width:100%;
+}
+i.fa{
+	margin:5px;
+}
+
+span.network-name{
+	font-size:18px;
+	text-shadow:1px 1px 1px rgb(0, 0, 0);
+}
+ul.list-inline li a.btn{
+	background:rgba(192, 192, 192, 0.9);
+	border:2px outset rgba(0, 0, 0, 0.9);
+	box-shadow:3px 3px 3px rgba(0, 0, 0, 0.9);
+	transition:all 0.2s ease-in;
+	color:black;
+}
+ul.list-inline li a.btn:hover{
+	background:rgba(0, 0, 0, 0.8);
+	border:2px outset rgba(0, 0, 0, 0.9);
+	box-shadow:3px 3px 3px rgba(0, 0, 0, 0.9);	
+	color:white;
+}
+
+ul.list-inline li{
+	margin-left:10px;
+	margin-right:10px;
+}
+.content-section-a{
+	background:url('C://Users/Hitachi/Desktop/html/portfolioPage/img/section-a1.jpg') no-repeat fixed;
+	height:700px;
+}
+h2.section-heading{
+	margin-top:100px;
+	font-size:48px;
+	color:rgb(225,225,225);
+}
+p.lead{
+	font-size:24px;
+	color:rgb(225,225,225);
+}
+.img-circle{
+	margin-top:150px;
+	border:1px rgba(255, 255, 255, 0.3);
+	border-radius:50%;
+}
+
+h2.sectionHeading{
+	color:rgb(28, 28, 28);
+	font-size:38px;
+	margin-top:75px;
+}
+#below-section{
+	color:rgb(28, 28, 28);
+}
+#portfolio{
+	background:url('C://Users/Hitachi/Desktop/html/portfolioPage/img/portfolioBg.jpg') fixed no-repeat;
+	height:1080px;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+	margin-top:-12px;
+}
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content{
+	position:absolute;
+	width:100%;
+	height:20px;
+	font-size:48px;
+	text-align:center;
+	top:40%;
+	color:white;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover{
+	background:rgba(0, 0, 0, .7);
+	position:absolute;
+	width:100%;
+	height:100%;
+	opacity:0;
+	transition:all 0.4s ease;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover{
+	background:rgba(0, 0, 0, .7);
+	position:absolute;
+	width:100%;
+	height:100%;
+	opacity:1;
+	transition:all 0.4s ease;
+}
+#portfolio .portfolio-item{
+	border:1px outset rgba(255, 255, 255, 0.6);
+	margin:0 0 15px;
+	transition:all 0.2s ease;
+}
+#portfolio .portfolio-item:hover{
+	border:1px outset rgba(255, 255, 255, 0.6);
+	margin:0 0 15px;
+	box-shadow:5px 5px 1px 0 rgba(28, 28, 28, 0.8);
+}
+#portfolio .portfolio-item .portfolio-caption{
+	padding:25px;
+	background:rgba(0, 0, 0, 0.8);
+	text-align:center;
+}
+#portfolio .portfolio-item .portfolio-caption h4{
+	color:white;
+	font-family:Microsoft Yahei;
+}
+#portfolio .portfolio-item .portfolio-caption p{
+	color:white;
+	font-family:Microsoft Yahei;
+}
+#portfolio .portfolio-item .portfolio-link img{
+	height:234px;
+}
+
+.banner{
+	background:url(C:/Users/Hitachi/Desktop/html/portfolioPage/img/section-a.jpg) no-repeat ;
+	height:800px;
+}
+
+h2.connect{
+	font-size:48px;
+	margin-top:150px;
+}
+ul.banner-social-buttons li{
+	display:block;
+	margin-bottom:20px;
+	padding:0;
+}
+.banner-social-buttons{
+	float:right;
+	margin-top:200px;
+}
+footer{
+	background:rgba(192, 192, 192, 0.9);
+	padding:50px 0;
+}
+.list-inline li{
+	display:inline-block;
+	padding-right:5px;
+	padding-right:5px;
+	margin-top:15px;
+}
+#footerText{
+	color:#777;
+	margin-top:10px;
+}
